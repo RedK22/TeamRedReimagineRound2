@@ -1,8 +1,10 @@
 import NewsBreak from "../images/NewsBreak.webp";
+import Border from "../images/TestBorder.png";
 
 function Newsletter() {
   return (
-    <div className="w-full h-screen bg-red-600 text-white py-10">
+    <div className="w-full h-screen bg-red-600 text-white py-10 relative">
+      <img src={Border} alt="" className="top-0 left-0 absolute" />
       <div className="text-center text-5xl font-semibold mb-16 ">
         NEWSLETTER
       </div>

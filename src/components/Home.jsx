@@ -7,7 +7,7 @@ function Home() {
       <img src={fingers} className="absolute -top-40 left-10 " alt="" />
       <div className="pl-20 z-10 ">
         <p className="text-6xl font-bold ">
-          Have a break
+          Have a break,
           <br /> Have a KitKat!
         </p>
         <a href="#products">
