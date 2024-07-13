@@ -20,7 +20,9 @@ function App() {
         <Faq />
       </section>
       <Socials />
-      <Newsletter />
+      <section id="news">
+        <Newsletter />
+      </section>
     </div>
   );
 }

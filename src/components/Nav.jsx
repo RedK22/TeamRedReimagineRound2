@@ -10,6 +10,9 @@ function Nav() {
         <a className="abtn px-2" href="#products">
           Products
         </a>
+        <a className="abtn px-2" href="#news">
+          News
+        </a>
         <a className="abtn px-2" href="#faq">
           FAQ
         </a>
