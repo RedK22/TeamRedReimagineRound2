@@ -1,5 +1,8 @@
 import Home from "./components/Home";
 import Nav from "./components/Nav";
+import Newsletter from "./components/Newsletter";
+import Products from "./components/Products";
+// import Products2 from "./components/Products2";
 
 function App() {
   return (
@@ -8,9 +11,10 @@ function App() {
         <Nav />
       </div>
       <Home />
-      <Home />
-      <Home />
-      <Home />
+      <section id="products" className="pt-10">
+        <Products />
+      </section>
+      <Newsletter />
     </div>
   );
 }

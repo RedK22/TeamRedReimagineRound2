@@ -99,3 +99,77 @@ html {
 .pbtn1:hover::before {
   transform: scaleY(1);
 }
+
+/* !Test Bg */
+
+.testbg::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  transition: width 0.3s ease, height 0.3s ease, border-radius 0.3s ease,
+    background 0.3s ease;
+
+  z-index: -1;
+}
+
+.testbg:hover:before {
+  width: 150%;
+  height: 150%;
+
+  background: rgb(220 38 38);
+}
+
+/* !News BUtton */
+
+.nbtn {
+  position: relative;
+  transition: 0.4s;
+}
+
+.nbtn:hover {
+  background: #ba001a;
+}
+
+.nbtn:before {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  border: 3px solid #ba001a;
+  border-width: 0 0 3px 3px;
+  transition: 0.4s;
+  opacity: 0;
+}
+
+.nbtn:hover:before {
+  bottom: -10px;
+  left: -10px;
+  opacity: 1;
+}
+
+.nbtn:hover:after {
+  top: -10px;
+  right: -10px;
+  opacity: 1;
+}
+
+.nbtn:after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 12px;
+  height: 12px;
+  border: 3px solid #ba001a;
+  border-width: 3px 3px 0 0;
+  transition: 0.4s;
+  opacity: 0;
+}
