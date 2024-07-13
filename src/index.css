@@ -173,3 +173,9 @@ html {
   transition: 0.4s;
   opacity: 0;
 }
+
+/* !Product Shadow */
+
+.productshadow {
+  filter: drop-shadow(0 3px 5px rgb(0 0 0 / 0.7));
+}

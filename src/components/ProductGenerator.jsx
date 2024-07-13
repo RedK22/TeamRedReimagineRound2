@@ -7,7 +7,7 @@ function ProductGenerator({imgSrc, name}) {
         <div className="testbg bg-transparent">
           <img
             src={imgSrc}
-            className="py-5 w-full h-52 border-b-2 border-red-600 z-10 drop-shadow-lg"
+            className="py-5 w-full h-52 border-b-2 border-red-600 z-10 productshadow"
             alt=""
           />
         </div>
