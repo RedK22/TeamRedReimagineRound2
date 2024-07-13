@@ -115,7 +115,7 @@ No, our chocolates don’t have any artificial preservatives and colourants, so 
             {isOpen4
               ? ` 
             > 
-You can check the back of the packaging for our allergen declaration line to check if the product contains fruit/nuts etc.
+You can examine the back of the packaging for our allergen declaration line to check if the product contains fruit/nuts etc.
 
 `
               : ""}
