@@ -2,6 +2,7 @@ import Home from "./components/Home";
 import Nav from "./components/Nav";
 import Newsletter from "./components/Newsletter";
 import Products from "./components/Products";
+import Socials from "./components/Socials";
 // import Products2 from "./components/Products2";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Products />
       </section>
       <Newsletter />
+      <Socials />
     </div>
   );
 }

@@ -10,8 +10,11 @@ function Newsletter() {
         <div className="w-[80%] bg-red-200 rounded-md py-20 px-4 flex justify-between items-center">
           <img src={NewsBreak} className="w-96" alt="" />
           <div className="w-[50%] flex flex-col pr-10 gap-5">
+            <p className="text-red-600 text-3xl font-bold">
+              SIGN UP FOR EXCLUSIVE BREAK OPPORTUNITIES
+            </p>
             <p className="text-red-600 text-2xl font-semibold">
-              Sign Up for news, offers, updates and more!
+              Sign up for news, updates, exclusive offers, prizes and more!
             </p>
             <input
               type="email"
