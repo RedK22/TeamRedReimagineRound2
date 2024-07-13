@@ -10,7 +10,9 @@ function Home() {
           Have a break
           <br /> Have a KitKat!
         </p>
-        <button className="pbtn pbtn1 mt-10 px-10 py-3">Products</button>
+        <a href="#products">
+          <button className="pbtn pbtn1 mt-10 px-10 py-3">Products</button>
+        </a>
       </div>
       <div className="z-10">
         <img src={kitkatbreak} className="w-2/3" alt="" />
