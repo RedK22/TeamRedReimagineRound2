@@ -33,7 +33,7 @@ function Products() {
       </div>
 
       {/* Products Start Here */}
-      <div className="flex flex-wrap gap-10 px-20 py-10">
+      <div className="flex flex-wrap justify-center items-center gap-10 px-20 py-10">
         {/* Product */}
 
         {productInfo.map((product, index) => (

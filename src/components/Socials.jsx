@@ -15,6 +15,7 @@ function Socials() {
       </div>
       <div className="flex justify-center items-center">
         <div className="flex w-[80%] justify-center gap-28 px-20 py-10 ">
+          {/* Social Icons */}
           <div className="flex items-center justify-center gap-10">
             <a
               href="#"
