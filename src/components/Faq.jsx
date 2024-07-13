@@ -44,7 +44,7 @@ function Faq() {
             <div>Can I have KitKat if I am lactose intolerant? </div>
             <p>{isOpen ? "-" : "+"}</p>
           </div>
-          <p className="font-regular text-base mt-4">
+          <p className="font-regular text-sm mt-4">
             {isOpen
               ? ` 
             > 
@@ -66,7 +66,7 @@ KitKat is made from milk products, so unfortunately We don't have any products i
             <div>What are KitKats made of? </div>
             <p>{isOpen2 ? "-" : "+"}</p>
           </div>
-          <p className="font-regular text-base mt-4">
+          <p className="font-regular text-sm mt-4">
             {isOpen2
               ? ` 
             > The perfect treat for your break, our KitKat bars are made of a crispy wafer covered in smooth milk chocolate.`
@@ -88,7 +88,7 @@ KitKat is made from milk products, so unfortunately We don't have any products i
             </div>
             <p>{isOpen3 ? "-" : "+"}</p>
           </div>
-          <p className="font-regular text-base mt-4">
+          <p className="font-regular text-sm mt-4">
             {isOpen3
               ? ` 
             > 
@@ -111,7 +111,7 @@ No, our chocolates don’t have any artificial preservatives and colourants, so 
             <div>Can I have KitKat if I am allergic to nuts? </div>
             <p>{isOpen4 ? "-" : "+"}</p>
           </div>
-          <p className="font-regular text-base mt-4">
+          <p className="font-regular text-sm mt-4">
             {isOpen4
               ? ` 
             > 
