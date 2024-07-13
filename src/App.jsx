@@ -15,8 +15,8 @@ function App() {
       <section id="products" className="pt-10">
         <Products />
       </section>
-      <Newsletter />
       <Socials />
+      <Newsletter />
     </div>
   );
 }
