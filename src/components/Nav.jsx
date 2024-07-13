@@ -10,8 +10,8 @@ function Nav() {
         <a className="abtn px-2" href="#products">
           Products
         </a>
-        <a className="abtn px-2" href="#">
-          About
+        <a className="abtn px-2" href="#faq">
+          FAQ
         </a>
         <a className="abtn px-2" href="#">
           Contact Us

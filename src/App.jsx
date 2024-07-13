@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Newsletter from "./components/Newsletter";
 import Products from "./components/Products";
 import Socials from "./components/Socials";
+import Faq from "./components/Faq";
 // import Products2 from "./components/Products2";
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
       <Home />
       <section id="products" className="pt-10">
         <Products />
+      </section>
+      <section id="faq">
+        <Faq />
       </section>
       <Socials />
       <Newsletter />
