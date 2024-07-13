@@ -13,10 +13,10 @@ function App() {
         <Nav />
       </div>
       <Home />
-      <section id="products" className="pt-10">
+      <section id="products" className="pt-12">
         <Products />
       </section>
-      <section id="faq">
+      <section id="faq" className="pt-12">
         <Faq />
       </section>
       <Socials />
