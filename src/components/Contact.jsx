@@ -8,7 +8,7 @@ function Contact() {
       <div className="text-center text-5xl font-semibold uppercase text-red-600 mb-10">
         Contact Us
       </div>
-      <div className="px-20 flex justify-center  gap-20">
+      <div className="px-20 flex justify-center  gap-10">
         <div className="w-[60%] text-2xl font-bold text-red-600">
           Need help? No worries, our team can assist you.{" "}
           <p className="mb-10 text-base font-semibold tracking-tight mt-5">
