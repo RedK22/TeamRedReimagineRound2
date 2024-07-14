@@ -16,12 +16,12 @@ function App() {
       <section id="products" className="pt-12">
         <Products />
       </section>
-      <section id="faq" className="pt-12">
-        <Faq />
+      <section id="news" className="pt-12">
+        <Newsletter />
       </section>
       <Socials />
-      <section id="news">
-        <Newsletter />
+      <section id="faq" className="pt-12">
+        <Faq />
       </section>
     </div>
   );
