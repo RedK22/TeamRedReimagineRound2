@@ -9,7 +9,7 @@ function Contact() {
         Contact Us
       </div>
       <div className="px-20 flex justify-center  gap-10">
-        <div className="w-[60%] text-2xl font-bold text-red-600">
+        <div className="w-[50%] text-2xl font-bold text-red-600">
           Need help? No worries, our team can assist you.{" "}
           <p className="mb-10 text-base font-semibold tracking-tight mt-5">
             We are available from Monday to Thursday between 09:00 - 18:00 and
@@ -21,8 +21,10 @@ function Contact() {
             <span className="text-base">consumer.services@za.nestle.com</span>
           </p>
         </div>
-        <div className="w-[25%] flex-shrink-0">
-          <img src={KitKats} alt="" />
+        <div className="w-[28%] flex-shrink-0">
+          <div className="border-8 border-red-600">
+            <img src={KitKats} alt="" className="border-4 border-white" />
+          </div>
         </div>
       </div>
     </div>
