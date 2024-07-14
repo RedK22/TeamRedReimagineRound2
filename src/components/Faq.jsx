@@ -24,7 +24,7 @@ function Faq() {
   };
 
   return (
-    <div className="w-full bg-red-600 min-h-screen text-white py-10 relative overflow-hidden">
+    <div className="w-full bg-red-600  text-white py-20 relative overflow-hidden">
       <img src={fingers} className="absolute z-0 -top-40 left-10" alt="" />
 
       <div className="text-5xl  z-10 font-semibold text-center mb-12 relative">

@@ -5,6 +5,7 @@ import Products from "./components/Products";
 import Socials from "./components/Socials";
 import Faq from "./components/Faq";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 // import Products2 from "./components/Products2";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <section id="contact">
         <Contact />
       </section>
+      <Footer />
     </div>
   );
 }
