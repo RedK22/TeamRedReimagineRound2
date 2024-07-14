@@ -40,7 +40,7 @@ function Faq() {
             isOpen ? `h-28` : `h-20`
           }`}
         >
-          <div className="flex justify-between">
+          <div className="flex justify-between tracking-tight">
             <div>Can I have KitKat if I am lactose intolerant? </div>
             <p>{isOpen ? "-" : "+"}</p>
           </div>
@@ -62,7 +62,7 @@ KitKat is made from milk products, so unfortunately We don't have any products i
             isOpen2 ? `h-28` : `h-20`
           }`}
         >
-          <div className="flex justify-between">
+          <div className="flex justify-between tracking-tight">
             <div>What are KitKats made of? </div>
             <p>{isOpen2 ? "-" : "+"}</p>
           </div>
@@ -81,7 +81,7 @@ KitKat is made from milk products, so unfortunately We don't have any products i
             isOpen3 ? `h-28` : `h-20`
           }`}
         >
-          <div className="flex justify-between">
+          <div className="flex justify-between tracking-tight">
             <div>
               Does KitKat chocolate have artificial preservatives and
               colourants?
@@ -107,7 +107,7 @@ No, our chocolates don’t have any artificial preservatives and colourants, so 
             isOpen4 ? `h-28` : `h-20`
           }`}
         >
-          <div className="flex justify-between">
+          <div className="flex justify-between tracking-tight">
             <div>Can I have KitKat if I am allergic to nuts? </div>
             <p>{isOpen4 ? "-" : "+"}</p>
           </div>
