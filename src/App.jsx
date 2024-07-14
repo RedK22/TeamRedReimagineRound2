@@ -4,6 +4,7 @@ import Newsletter from "./components/Newsletter";
 import Products from "./components/Products";
 import Socials from "./components/Socials";
 import Faq from "./components/Faq";
+import Contact from "./components/Contact";
 // import Products2 from "./components/Products2";
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
       <Socials />
       <section id="faq" className="pt-12">
         <Faq />
+      </section>
+      <section id="contact">
+        <Contact />
       </section>
     </div>
   );

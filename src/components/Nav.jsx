@@ -16,7 +16,7 @@ function Nav() {
         <a className="abtn px-2" href="#faq">
           FAQ
         </a>
-        <a className="abtn px-2" href="#">
+        <a className="abtn px-2" href="#contact">
           Contact Us
         </a>
       </ul>
