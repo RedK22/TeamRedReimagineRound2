@@ -21,7 +21,7 @@ function Contact() {
             <span className="text-base">consumer.services@za.nestle.com</span>
           </p>
         </div>
-        <div className="w-[25%] flex-shrink-0 bg-red-500">
+        <div className="w-[25%] flex-shrink-0">
           <img src={KitKats} alt="" />
         </div>
       </div>
