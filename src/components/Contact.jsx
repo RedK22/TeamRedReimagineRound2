@@ -17,7 +17,7 @@ function Contact() {
             will get back to you within 2 working days.
           </p>
           <p className="flex gap-4 items-center">
-            <i class="fa-regular fa-envelope"></i>
+            <i className="fa-regular fa-envelope"></i>
             <span className="text-base">consumer.services@za.nestle.com</span>
           </p>
         </div>
