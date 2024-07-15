@@ -4,11 +4,10 @@ import Reveal from "./Reveal";
 function Nav() {
   return (
     <div className="  w-full bg-red-600 px-8 py-1 shadow-lg text-white flex items-center gap-10">
-      <Reveal>
-        <a href="#">
-          <img className="w-24" src={kitkatlogo} alt="" />
-        </a>
-      </Reveal>
+      <a href="#">
+        <img className="w-24" src={kitkatlogo} alt="" />
+      </a>
+
       <ul className="flex gap-12 tracking-tighter font-semibold text-xl uppercase">
         <Reveal>
           <a className="abtn px-2" href="#products">

@@ -27,8 +27,8 @@ function Contact() {
             </p>
           </div>
           <div className="w-[28%] flex-shrink-0">
-            <div className="border-8 border-red-600">
-              <img src={KitKats} alt="" className="border-4 border-white" />
+            <div className="">
+              <img src={KitKats} alt="" className="" />
             </div>
           </div>
         </div>
