@@ -9,6 +9,8 @@ import KitKatXmas from "../images/KitKatXmas.webp";
 
 import ProductGenerator from "./ProductGenerator";
 
+import Reveal from "./Reveal";
+
 function Products() {
   // !Adding Products Information
 
@@ -28,9 +30,11 @@ function Products() {
 
   return (
     <div className="w-full  py-10 relative">
-      <div className="text-center text-5xl mb-4 font-semibold  text-red-600  uppercase underline underline-offset-4 ">
-        Choose Your Break
-      </div>
+      <Reveal>
+        <div className="text-center text-5xl mb-4 font-semibold  text-red-600  uppercase underline underline-offset-4 ">
+          Choose Your Break
+        </div>
+      </Reveal>
 
       {/* Products Start Here */}
       <div className="flex flex-wrap justify-center items-center gap-10 px-20 py-10">

@@ -1,5 +1,7 @@
 import {useState} from "react";
 import fingers from "../images/fingers.png";
+import Reveal from "./Reveal";
+import RevealY from "./RevealY";
 
 function Faq() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,14 +28,16 @@ function Faq() {
   return (
     <div className="w-full bg-red-600  text-white py-20 relative overflow-hidden">
       <img src={fingers} className="absolute z-0 -top-40 left-10" alt="" />
-
-      <div className="text-5xl  z-10 font-semibold text-center mb-12 relative">
-        FREQUENTLY ASKED QUESTIONS
-      </div>
+      <Reveal>
+        <div className="text-5xl  z-10 font-semibold text-center mb-12 relative">
+          FREQUENTLY ASKED QUESTIONS
+        </div>
+      </Reveal>
 
       {/* Starting FAQ Section */}
       <div className="flex flex-col gap-10 justify-center items-center z-10">
         {/* FAQ 1 */}
+
         <div
           onClick={toggleOpen}
           className={`w-[80%] z-10   border-2 transition-all border-white  py-5 px-10 font-medium text-2xl cursor-pointer ${
@@ -56,6 +60,7 @@ KitKat is made from milk products, so unfortunately We don't have any products i
         </div>
 
         {/* FAQ 2 */}
+
         <div
           onClick={toggleOpen2}
           className={`w-[80%] z-10  border-2 transition-all border-white  py-5 px-10 font-medium text-2xl cursor-pointer ${
@@ -75,6 +80,7 @@ KitKat is made from milk products, so unfortunately We don't have any products i
         </div>
 
         {/* FAQ 3 */}
+
         <div
           onClick={toggleOpen3}
           className={`w-[80%] z-10  border-2 transition-all border-white  py-5 px-10 font-medium text-2xl cursor-pointer ${
@@ -101,6 +107,7 @@ No, our chocolates don’t have any artificial preservatives and colourants, so 
         </div>
 
         {/* FAQ 4 */}
+
         <div
           onClick={toggleOpen4}
           className={`w-[80%] z-10  border-2 transition-all border-white  py-5 px-10 font-medium text-2xl cursor-pointer ${
