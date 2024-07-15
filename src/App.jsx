@@ -6,6 +6,7 @@ import Socials from "./components/Socials";
 import Faq from "./components/Faq";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import BreakFree from "./components/BreakFree";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Nav />
       </div>
       <Home />
+      <BreakFree />
       <section id="products" className="pt-12">
         <Products />
       </section>
