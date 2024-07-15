@@ -6,7 +6,6 @@ import Socials from "./components/Socials";
 import Faq from "./components/Faq";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-// import Products2 from "./components/Products2";
 
 function App() {
   return (
