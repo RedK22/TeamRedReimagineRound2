@@ -11,7 +11,7 @@ import BreakFree from "./components/BreakFree";
 function App() {
   return (
     <div className="relative">
-      <div className="sticky top-0 z-50">
+      <div className="">
         <Nav />
       </div>
       <Home />
