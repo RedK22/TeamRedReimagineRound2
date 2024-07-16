@@ -24,7 +24,7 @@ function App() {
       </section>
       <Socials />
       <section id="faq" className="pt-12">
-        <Faq />>
+        <Faq />
       </section>
       <section id="contact">
         <Contact />
