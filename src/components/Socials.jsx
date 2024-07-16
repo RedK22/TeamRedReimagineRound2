@@ -16,57 +16,83 @@ function Socials() {
   const isInView = useInView(ref, {once: true});
 
   return (
-    <div className="w-full py-10 relative ">
-      <img src={GoodBreaks} className="absolute w-60 top-0 right-0" alt="" />
+    <div className="w-full py-10 relative">
+      <img
+        src={GoodBreaks}
+        className="hidden md:block absolute w-60 top-0 right-0"
+        alt=""
+      />
 
       <div className="flex justify-center items-center">
-        <div className="grid grid-cols-2 w-[80%] place-items-center  px-20 py-10 ">
+        <div className="grid grid-cols-1 gap-10 md:gap-0 md:grid-cols-2 w-[80%] place-items-center px-10 md:px-20 py-5 md:py-10 ">
           <div>
             <Reveal>
-              <div className="text-center text-4xl font-semibold uppercase py-10 text-red-600">
+              <div className="text-center w-full text-3xl md:text-4xl font-bold uppercase py-2 mb-8 md:mb-0 md:py-10 text-red-600">
                 Join Us On Socials
               </div>
             </Reveal>
             {/* Social Icons */}
             <RevealY>
-              <div className="flex items-center justify-center gap-10">
+              <div className="flex flex-wrap items-center justify-center gap-10">
                 <a
                   href="https://www.facebook.com/kitkatUK"
                   target="_blank"
-                  className="bg-red-600 p-3 hover:scale-110 hover:translate-y-[-15px] shadow-md hover:bg-[#ff3030] transition-all rounded-full"
+                  className="bg-red-600  p-4 md:p-3 hover:scale-110 hover:translate-y-[-15px] shadow-md hover:bg-[#ff3030] transition-all rounded-full"
                 >
-                  <img src={facebook} className="w-8 fill-current " alt="" />
+                  <img
+                    src={facebook}
+                    className="md:w-8 w-6 fill-current "
+                    alt=""
+                  />
                 </a>
                 <a
                   href="https://twitter.com/KITKAT"
                   target="_blank"
-                  className="bg-red-600 p-3 hover:scale-110 hover:translate-y-[-15px] shadow-md hover:bg-[#ff3030] transition-all rounded-full"
+                  className="bg-red-600 p-4 md:p-3 hover:scale-110 hover:translate-y-[-15px] shadow-md hover:bg-[#ff3030] transition-all rounded-full"
                 >
-                  <img src={twitter} className="w-8 fill-current " alt="" />
+                  <img
+                    src={twitter}
+                    className="md:w-8 w-6 fill-current "
+                    alt=""
+                  />
                 </a>
                 <a
                   href="https://www.instagram.com/kitkat/"
                   target="_blank"
-                  className="bg-red-600 p-3 hover:scale-110 hover:translate-y-[-15px] shadow-md hover:bg-[#ff3030] transition-all rounded-full"
+                  className="bg-red-600 p-4 md:p-3 hover:scale-110 hover:translate-y-[-15px] shadow-md hover:bg-[#ff3030] transition-all rounded-full"
                 >
-                  <img src={instagram} className="w-8 fill-current " alt="" />
+                  <img
+                    src={instagram}
+                    className="md:w-8 w-6 fill-current "
+                    alt=""
+                  />
                 </a>
                 <a
                   href="https://www.tiktok.com/@kitkat"
                   target="_blank"
-                  className="bg-red-600 p-3 hover:scale-110 hover:translate-y-[-15px] shadow-md hover:bg-[#ff3030] transition-all rounded-full"
+                  className="bg-red-600 p-4 md:p-3 hover:scale-110 hover:translate-y-[-15px] shadow-md hover:bg-[#ff3030] transition-all rounded-full"
                 >
-                  <img src={tiktok} className="w-8 fill-current " alt="" />
+                  <img
+                    src={tiktok}
+                    className="md:w-8 w-6 fill-current "
+                    alt=""
+                  />
                 </a>
               </div>
             </RevealY>
           </div>
+
+          {/* Image */}
           <motion.div
             ref={ref}
-            animate={isInView ? {rotate: 360, transition: {duration: 1}} : {}}
-            className="w-72 h-72 shadow-lg  rounded-full flex items-center justify-center bg-red-600"
+            animate={
+              isInView
+                ? {rotate: 360, transition: {duration: 1, delay: 0.5}}
+                : {}
+            }
+            className="w-40 h-40 md:w-72 md:h-72 shadow-lg  rounded-full flex items-center justify-center bg-red-600"
           >
-            <img src={HaveABreak} className="w-52" alt="" />
+            <img src={HaveABreak} className="w-32 md:w-52" alt="" />
           </motion.div>
         </div>
       </div>

@@ -29,15 +29,15 @@ function Products() {
   ];
 
   return (
-    <div className="w-full  py-10 relative">
+    <div className="w-full py-10 relative">
       <Reveal>
-        <div className="text-center text-5xl mb-4 font-semibold  text-red-600  uppercase underline underline-offset-4 ">
+        <div className="text-center text-3xl md:text-5xl mb-4 font-semibold  text-red-600  uppercase underline underline-offset-4 ">
           Choose Your Break
         </div>
       </Reveal>
 
       {/* Products Start Here */}
-      <div className="flex flex-wrap justify-center items-center gap-10 px-20 py-10">
+      <div className="flex flex-wrap justify-center items-center gap-4 md:gap-10 px-10 md:px-20 py-10">
         {/* Product */}
 
         {productInfo.map((product, index) => (
