@@ -4,7 +4,7 @@ import RevealY from "./RevealY";
 
 function Home() {
   return (
-    <div className="min-h-[70lvh] md:h-screen text-white bg-red-600 grid grid-cols-1 md:grid-cols-2 py-20 px-2 md:px-20 relative overflow-hidden place-items-center">
+    <div className="min-h-[100lvh] md:h-screen text-white bg-red-600 grid grid-cols-1 md:grid-cols-2 py-20 px-2 md:px-20 relative overflow-hidden place-items-center">
       <img
         src={fingers}
         className="absolute top-0 md:-top-40 left-10 "
