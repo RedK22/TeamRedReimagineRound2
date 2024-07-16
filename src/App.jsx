@@ -15,7 +15,9 @@ function App() {
         <Nav />
       </div>
       <Home />
-      <BreakFree />
+      <div className="hidden md:block">
+        <BreakFree />
+      </div>
       <section id="products" className="pt-12">
         <Products />
       </section>

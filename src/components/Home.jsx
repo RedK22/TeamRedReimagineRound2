@@ -29,6 +29,7 @@ function Home() {
           </a>
         </RevealY>
       </div>
+      {/* Image Here */}
       <div className="z-10 flex justify-center items-center">
         <img src={kitkatbreak} className="w-2/3" alt="" />
       </div>
