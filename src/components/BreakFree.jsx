@@ -33,7 +33,7 @@ function BreakFree() {
             <div className="h-screen relative font-extrabold bg-white w-[100vw] text-[3em] md:text-[7em] text-red-600 flex justify-center items-center">
               <img
                 src={fingers}
-                className="absolute opacity-75 -rotate-45"
+                className="absolute opacity-50 -rotate-60 "
                 alt=""
               />
               <div className="z-10">FROM</div>
