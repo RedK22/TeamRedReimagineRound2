@@ -24,7 +24,7 @@ function Socials() {
       /> */}
 
       <div className="flex justify-center items-center">
-        <div className="grid grid-cols-1 gap-10 md:gap-0 md:grid-cols-2 w-[80%] place-items-center px-10 md:px-20 py-5 md:py-10 ">
+        <div className="grid grid-cols-1 gap-10 md:gap-2 md:grid-cols-2 w-[80%] place-items-center px-10 md:px-20 py-5 md:py-10 ">
           <div>
             <Reveal>
               <div className="text-center w-full text-3xl md:text-4xl font-bold uppercase py-2 mb-8 md:mb-0 md:py-10 text-red-600">
