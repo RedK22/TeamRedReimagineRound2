@@ -14,7 +14,7 @@ function Newsletter() {
       </Reveal>
       <RevealY>
         <div className="flex items-center justify-center text-center">
-          <div className="w-[80%] bg-red-200 rounded-md py-10 md:py-20 px-4 md:flex justify-between items-center">
+          <div className="w-[80%] bg-red-200 rounded-md py-10 md:py-20 px-4 grid grid-cols-1 place-items-center md:flex justify-between items-center">
             <img src={NewsBreak} className="w-96 mb-5 md:mb-0" alt="" />
 
             <div className="w-full md:w-[50%] flex flex-col  md:pr-10 gap-5">
