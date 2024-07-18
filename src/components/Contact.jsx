@@ -13,7 +13,7 @@ function Contact() {
         </div>
       </Reveal>
       <RevealY>
-        <div className="md:px-20 px-4 block md:flex justify-center  gap-10">
+        <div className="md:px-20 px-4 flex flex-col md:flex-row items-center justify-center  gap-10">
           <div className="md:w-[50%] text-2xl font-bold text-red-600">
             Need help? No worries, our team can assist you.{" "}
             <p className="mb-10 text-sm md:text-base font-semibold tracking-tight mt-5">
@@ -32,7 +32,7 @@ function Contact() {
               </span>
             </p>
           </div>
-          <div className="md:w-[28%] flex-shrink-0">
+          <div className="w-1/2 md:w-[28%] flex-shrink-0">
             <div className="">
               <img src={KitKats} alt="" className="block" />
             </div>
