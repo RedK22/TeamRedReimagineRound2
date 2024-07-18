@@ -17,11 +17,11 @@ function Socials() {
 
   return (
     <div className="w-full py-10 relative">
-      <img
+      {/* <img
         src={GoodBreaks}
         className="hidden md:block absolute w-60 top-0 right-0"
         alt=""
-      />
+      /> */}
 
       <div className="flex justify-center items-center">
         <div className="grid grid-cols-1 gap-10 md:gap-0 md:grid-cols-2 w-[80%] place-items-center px-10 md:px-20 py-5 md:py-10 ">
