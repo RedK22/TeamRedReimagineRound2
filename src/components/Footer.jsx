@@ -18,7 +18,7 @@ function Footer() {
   };
 
   return (
-    <div className="w-full py-2 bg-red-600">
+    <div className="w-full py-2 pb-4 bg-red-600">
       {/* Desktop Footer */}
       <div className="hidden md:grid grid-cols-3 place-items-center py-4 text-white">
         <div>
