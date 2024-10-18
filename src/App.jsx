@@ -10,7 +10,7 @@ import BreakFree from "./components/BreakFree";
 
 function App() {
   return (
-    <div className="relative">
+    <div className="relative overflow-y-hidden md:overflow-y-visible">
       <div className="sticky top-0 z-50">
         <Nav />
       </div>
